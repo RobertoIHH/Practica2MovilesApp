@@ -1,11 +1,31 @@
 package com.example.principal.ui.theme
 
-import androidx.compose.ui.graphics.Color
+import androidx.annotation.ColorInt
+import androidx.annotation.ColorRes
+import androidx.core.content.ContextCompat
+import com.example.principal.R
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+/**
+ * Clase de utilidad para manejar colores de la aplicación
+ */
+object Color {
+    // Colores primarios
+    @ColorRes val primaryColorRes = R.color.primary
+    @ColorRes val primaryDarkColorRes = R.color.primary_dark
+    @ColorRes val primaryLightColorRes = R.color.primary_light
+    @ColorRes val accentColorRes = R.color.accent
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+    // Colores básicos
+    @ColorRes val whiteColorRes = R.color.white
+    @ColorRes val blackColorRes = R.color.black
+
+    // Colores de interfaz
+    @ColorRes val backgroundColorRes = R.color.gray_light
+    @ColorRes val navBackgroundColorRes = R.color.nav_background
+    @ColorRes val navItemColorRes = R.color.nav_item_color
+
+    // Colores de estado
+    @ColorRes val successColorRes = R.color.success_green
+    @ColorRes val warningColorRes = R.color.warning_orange
+    @ColorRes val errorColorRes = R.color.error_red
+}

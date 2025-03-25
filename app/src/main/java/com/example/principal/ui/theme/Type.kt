@@ -1,34 +1,24 @@
 package com.example.principal.ui.theme
 
-import androidx.compose.material3.Typography
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
+import androidx.annotation.StyleRes
+import com.example.principal.R
 
-// Set of Material typography styles to start with
-val Typography = Typography(
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
-    ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
-    )
-    */
-)
+/**
+ * Clase de utilidad para manejar tipografías de la aplicación
+ */
+object Type {
+    // Estilos de texto usando recursos estándar de Android
+    @StyleRes val headlineLargeStyle = android.R.style.TextAppearance_Material_Headline
+    @StyleRes val headlineMediumStyle = android.R.style.TextAppearance_Material_Title
+    @StyleRes val headlineSmallStyle = android.R.style.TextAppearance_Material_Subhead
+
+    @StyleRes val titleLargeStyle = android.R.style.TextAppearance_Material_Title
+    @StyleRes val titleMediumStyle = android.R.style.TextAppearance_Material_Subhead
+    @StyleRes val titleSmallStyle = android.R.style.TextAppearance_Material_Body2
+
+    @StyleRes val bodyLargeStyle = android.R.style.TextAppearance_Material_Body1
+    @StyleRes val bodyMediumStyle = android.R.style.TextAppearance_Material_Body2
+    @StyleRes val bodySmallStyle = android.R.style.TextAppearance_Material_Caption
+
+    @StyleRes val buttonStyle = android.R.style.TextAppearance_Material_Button
+}
