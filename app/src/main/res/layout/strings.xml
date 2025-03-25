@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Sistema de Recomendaciones</string>
+
+    <!-- Auth -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="register_title">Registro</string>
+    <string name="username_hint">Usuario</string>
+    <string name="name_hint">Nombre</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="confirm_password_hint">Confirmar Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="register_button">Registrarse</string>
+    <string name="register_prompt">¿No tienes cuenta? Regístrate</string>
+    <string name="login_prompt">¿Ya tienes cuenta? Inicia Sesión</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_books">Libros</string>
+    <string name="menu_movies">Películas</string>
+    <string name="menu_profile">Mi Perfil</string>
+    <string name="menu_admin_section">Administración</string>
+    <string name="menu_admin_users">Gestión de Usuarios</string>
+    <string name="menu_other">Otros</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Mi Perfil</string>
+    <string name="change_profile_image">Cambiar imagen de perfil</string>
+    <string name="personal_info">Información Personal</string>
+    <string name="default_username">Usuario</string>
+    <string name="default_email">usuario@ejemplo.com</string>
+    <string name="save_changes">Guardar Cambios</string>
+    <string name="change_password">Cambiar Contraseña</string>
+    <string name="current_password">Contraseña Actual</string>
+    <string name="new_password">Nueva Contraseña</string>
+
+    <!-- Books & Movies -->
+    <string name="search_books">Buscar Libros</string>
+    <string name="search_movies">Buscar Películas</string>
+    <string name="search_hint">Buscar por título, autor, etc.</string>
+    <string name="no_results">No se encontraron resultados</string>
+
+    <!-- Admin -->
+    <string name="admin_title">Panel de Administración</string>
+    <string name="admin_users">Gestión de Usuarios</string>
+    <string name="new_user">Nuevo Usuario</string>
+    <string name="edit_user">Editar Usuario</string>
+    <string name="delete_user">Eliminar Usuario</string>
+    <string name="confirm_delete">¿Estás seguro de eliminar este usuario?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+</resources>
